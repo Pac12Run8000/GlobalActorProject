@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let resource = SharedResource()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
         }
         .padding()
+        .onAppear {
+            Task {
+                await incrementSharedResource(resource: resource) // Task 1
+                await incrementSharedResource(resource: resource) // Task 2
+            }
+        }
     }
 }
 
