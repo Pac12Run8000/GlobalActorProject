@@ -12,6 +12,7 @@
 		090FA2CC2A09807900A238DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA2CB2A09807900A238DC /* Assets.xcassets */; };
 		090FA2CF2A09807900A238DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA2CE2A09807900A238DC /* Preview Assets.xcassets */; };
 		090FA2D82A09828E00A238DC /* SharedResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA2D72A09828E00A238DC /* SharedResource.swift */; };
+		090FA2DC2A0991A900A238DC /* ActorResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA2DB2A0991A900A238DC /* ActorResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		090FA2CB2A09807900A238DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090FA2CE2A09807900A238DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		090FA2D72A09828E00A238DC /* SharedResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedResource.swift; sourceTree = "<group>"; };
+		090FA2DB2A0991A900A238DC /* ActorResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				090FA2C72A09807700A238DC /* GlobalActorProjectApp.swift */,
+				090FA2DB2A0991A900A238DC /* ActorResources.swift */,
 				090FA2D72A09828E00A238DC /* SharedResource.swift */,
 				090FA2C92A09807700A238DC /* ContentView.swift */,
 				090FA2CB2A09807900A238DC /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				090FA2CA2A09807700A238DC /* ContentView.swift in Sources */,
 				090FA2D82A09828E00A238DC /* SharedResource.swift in Sources */,
 				090FA2C82A09807700A238DC /* GlobalActorProjectApp.swift in Sources */,
+				090FA2DC2A0991A900A238DC /* ActorResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

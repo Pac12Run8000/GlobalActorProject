@@ -20,7 +20,7 @@ final class SharedResource {
     @MainActor
     func increment() {
         value += 1
-        print("Value incremented to \(value)")
+        print("Global Character value incremented to \(value)")
     }
 }
 

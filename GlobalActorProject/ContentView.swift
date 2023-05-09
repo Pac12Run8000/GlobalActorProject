@@ -20,6 +20,15 @@ struct ContentView: View {
                 await incrementSharedResource(resource: resource) // Task 1
                 await incrementSharedResource(resource: resource) // Task 2
             }
+            
+            
+            Task {
+                await counter.increment() // Task 1
+                await counter.increment() // Task 2
+                
+                let count = await counter.getCount() // Task 3
+                print("actor count: \(count)") // Prints the final count
+            }
         }
     }
 }
